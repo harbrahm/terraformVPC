@@ -127,3 +127,11 @@ resource "aws_route_table_association" "private-assoc-2" {
 }
 
 
+terraform {
+  backend "s3" {
+    bucket  = "terraform-state-remote-storages"
+    region  = "us-east-1"
+    key     = "terraform/dev/terraform.tfstate"
+    encrypt = true    
+  }
+}
