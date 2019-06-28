@@ -142,19 +142,19 @@ output "vpc_id" {
 }
 
 output "aws_subnet" {
- value = "${aws_subnet.main.id}"
+ value = "${aws_subnet.subnet1.id}"
 }
 
 output "aws_internet_gateway" {
- value = "${aws_internet_gateway.main.id}"
+ value = "${aws_internet_gateway.main-igw.id}"
 }
 
 output "aws_route_table" {
- value = "${aws_route_table.main.id}"
+ value = "${aws_route_table.main-private-rt.id}"
 }
 
 output "aws_route_table_association" {
- value = "${aws_route_table_association.main.id}"
+ value = "${aws_route_table_association.private-assoc-1.id}"
 }
 
 
