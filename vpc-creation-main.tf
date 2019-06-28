@@ -141,8 +141,20 @@ output "vpc_id" {
  value = "${aws_vpc.main.id}"
 }
 
-output "aws_subnet" {
+output "aws_subnet1" {
  value = "${aws_subnet.subnet1.id}"
+}
+
+output "aws_subnet2" {
+ value = "${aws_subnet.subnet2.id}"
+}
+
+output "aws_subnet3" {
+ value = "${aws_subnet.subnet3.id}"
+}
+
+output "aws_subnet4" {
+ value = "${aws_subnet.subnet4.id}"
 }
 
 output "aws_internet_gateway" {
