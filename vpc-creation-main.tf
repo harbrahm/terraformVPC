@@ -157,4 +157,7 @@ output "aws_route_table_association" {
  value = "${aws_route_table_association.private-assoc-1.id}"
 }
 
+output "main_vpc_cidr" {
+ value = "${var.main_vpc_cidr}"
+}
 
