@@ -132,8 +132,6 @@ terraform {
     bucket  = "terraform-state-remote-storages"
     region  = "us-east-1"
     key     = "terraform/dev/terraform.tfstate"
-    encrypt = true    
-    workspace_key_prefix = ""
   }
 }
 
