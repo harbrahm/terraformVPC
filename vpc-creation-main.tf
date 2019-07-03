@@ -165,3 +165,6 @@ output "main_vpc_cidr" {
  value = "${var.main_vpc_cidr}"
 }
 
+output "aws_region" {
+ value = "${var.aws_region}"
+}
