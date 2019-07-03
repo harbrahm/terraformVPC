@@ -168,3 +168,12 @@ output "main_vpc_cidr" {
 output "aws_region" {
  value = "${var.aws_region}"
 }
+
+output "availability_zone1" {
+ value = "${var.availability_zone1}"
+}
+
+
+output "availability_zone2" {
+ value = "${var.availability_zone2}"
+}
