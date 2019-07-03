@@ -148,13 +148,6 @@ output "aws_subnet2" {
  value = "${aws_subnet.subnet2.id}"
 }
 
-output "aws_subnet3" {
- value = "${aws_subnet.subnet3.id}"
-}
-
-output "aws_subnet4" {
- value = "${aws_subnet.subnet4.id}"
-}
 
 output "aws_internet_gateway" {
  value = "${aws_internet_gateway.main-igw.id}"
